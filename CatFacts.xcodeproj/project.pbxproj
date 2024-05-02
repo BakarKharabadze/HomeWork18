@@ -9,21 +9,26 @@
 /* Begin PBXBuildFile section */
 		FB2ACDC02BE26F4900744142 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2ACDBF2BE26F4900744142 /* AppDelegate.swift */; };
 		FB2ACDC22BE26F4900744142 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2ACDC12BE26F4900744142 /* SceneDelegate.swift */; };
-		FB2ACDC42BE26F4900744142 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2ACDC32BE26F4900744142 /* ViewController.swift */; };
-		FB2ACDC72BE26F4900744142 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = FB2ACDC62BE26F4900744142 /* Base */; };
+		FB2ACDC42BE26F4900744142 /* CatFactsListViewController .swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2ACDC32BE26F4900744142 /* CatFactsListViewController .swift */; };
 		FB2ACDC92BE26F4A00744142 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB2ACDC82BE26F4A00744142 /* Assets.xcassets */; };
 		FB2ACDCC2BE26F4A00744142 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = FB2ACDCB2BE26F4A00744142 /* Base */; };
+		FB71C9F02BE297D100EB1333 /* CatsFactsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB71C9EF2BE297D100EB1333 /* CatsFactsViewModel.swift */; };
+		FB71C9F22BE2982D00EB1333 /* CatsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB71C9F12BE2982D00EB1333 /* CatsModel.swift */; };
+		FB71C9F42BE2A89000EB1333 /* CatsListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB71C9F32BE2A89000EB1333 /* CatsListTableViewCell.swift */; };
+		FBEE67622BE27D7A0099C566 /* Networking in Frameworks */ = {isa = PBXBuildFile; productRef = FBEE67612BE27D7A0099C566 /* Networking */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		FB2ACDBC2BE26F4900744142 /* CatFacts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CatFacts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB2ACDBF2BE26F4900744142 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FB2ACDC12BE26F4900744142 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FB2ACDC32BE26F4900744142 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		FB2ACDC62BE26F4900744142 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FB2ACDC32BE26F4900744142 /* CatFactsListViewController .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CatFactsListViewController .swift"; sourceTree = "<group>"; };
 		FB2ACDC82BE26F4A00744142 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FB2ACDCB2BE26F4A00744142 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FB2ACDCD2BE26F4A00744142 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB71C9EF2BE297D100EB1333 /* CatsFactsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatsFactsViewModel.swift; sourceTree = "<group>"; };
+		FB71C9F12BE2982D00EB1333 /* CatsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatsModel.swift; sourceTree = "<group>"; };
+		FB71C9F32BE2A89000EB1333 /* CatsListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatsListTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +36,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FBEE67622BE27D7A0099C566 /* Networking in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,15 +62,65 @@
 		FB2ACDBE2BE26F4900744142 /* CatFacts */ = {
 			isa = PBXGroup;
 			children = (
-				FB2ACDBF2BE26F4900744142 /* AppDelegate.swift */,
-				FB2ACDC12BE26F4900744142 /* SceneDelegate.swift */,
-				FB2ACDC32BE26F4900744142 /* ViewController.swift */,
-				FB2ACDC52BE26F4900744142 /* Main.storyboard */,
-				FB2ACDC82BE26F4A00744142 /* Assets.xcassets */,
-				FB2ACDCA2BE26F4A00744142 /* LaunchScreen.storyboard */,
+				FB9052AA2BE3CDC600119606 /* App */,
+				FB9052AB2BE3CDEA00119606 /* Scenec */,
+				FB9052AE2BE3CE5100119606 /* Model */,
+				FB9052AF2BE3CE6500119606 /* Resources */,
 				FB2ACDCD2BE26F4A00744142 /* Info.plist */,
 			);
 			path = CatFacts;
+			sourceTree = "<group>";
+		};
+		FB9052AA2BE3CDC600119606 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				FB2ACDBF2BE26F4900744142 /* AppDelegate.swift */,
+				FB2ACDC12BE26F4900744142 /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		FB9052AB2BE3CDEA00119606 /* Scenec */ = {
+			isa = PBXGroup;
+			children = (
+				FB9052AC2BE3CE1F00119606 /* CatsFacts */,
+			);
+			path = Scenec;
+			sourceTree = "<group>";
+		};
+		FB9052AC2BE3CE1F00119606 /* CatsFacts */ = {
+			isa = PBXGroup;
+			children = (
+				FB9052AD2BE3CE4300119606 /* Cell */,
+				FB2ACDC32BE26F4900744142 /* CatFactsListViewController .swift */,
+				FB71C9EF2BE297D100EB1333 /* CatsFactsViewModel.swift */,
+			);
+			path = CatsFacts;
+			sourceTree = "<group>";
+		};
+		FB9052AD2BE3CE4300119606 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				FB71C9F32BE2A89000EB1333 /* CatsListTableViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		FB9052AE2BE3CE5100119606 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FB71C9F12BE2982D00EB1333 /* CatsModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FB9052AF2BE3CE6500119606 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FB2ACDCA2BE26F4A00744142 /* LaunchScreen.storyboard */,
+				FB2ACDC82BE26F4A00744142 /* Assets.xcassets */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +139,9 @@
 			dependencies = (
 			);
 			name = CatFacts;
+			packageProductDependencies = (
+				FBEE67612BE27D7A0099C566 /* Networking */,
+			);
 			productName = CatFacts;
 			productReference = FB2ACDBC2BE26F4900744142 /* CatFacts.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +170,9 @@
 				Base,
 			);
 			mainGroup = FB2ACDB32BE26F4900744142;
+			packageReferences = (
+				FBEE67602BE27D7A0099C566 /* XCRemoteSwiftPackageReference "SimpleNetworking" */,
+			);
 			productRefGroup = FB2ACDBD2BE26F4900744142 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,7 +189,6 @@
 			files = (
 				FB2ACDC92BE26F4A00744142 /* Assets.xcassets in Resources */,
 				FB2ACDCC2BE26F4A00744142 /* Base in Resources */,
-				FB2ACDC72BE26F4900744142 /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +199,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FB2ACDC42BE26F4900744142 /* ViewController.swift in Sources */,
+				FB71C9F42BE2A89000EB1333 /* CatsListTableViewCell.swift in Sources */,
+				FB2ACDC42BE26F4900744142 /* CatFactsListViewController .swift in Sources */,
 				FB2ACDC02BE26F4900744142 /* AppDelegate.swift in Sources */,
+				FB71C9F22BE2982D00EB1333 /* CatsModel.swift in Sources */,
 				FB2ACDC22BE26F4900744142 /* SceneDelegate.swift in Sources */,
+				FB71C9F02BE297D100EB1333 /* CatsFactsViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		FB2ACDC52BE26F4900744142 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FB2ACDC62BE26F4900744142 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		FB2ACDCA2BE26F4A00744142 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -296,7 +352,6 @@
 				INFOPLIST_FILE = CatFacts/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -323,7 +378,6 @@
 				INFOPLIST_FILE = CatFacts/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -361,6 +415,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		FBEE67602BE27D7A0099C566 /* XCRemoteSwiftPackageReference "SimpleNetworking" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/BakarKharabadze/SimpleNetworking";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FBEE67612BE27D7A0099C566 /* Networking */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FBEE67602BE27D7A0099C566 /* XCRemoteSwiftPackageReference "SimpleNetworking" */;
+			productName = Networking;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = FB2ACDB42BE26F4900744142 /* Project object */;
 }

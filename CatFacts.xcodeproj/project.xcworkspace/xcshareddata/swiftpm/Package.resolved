@@ -1,0 +1,15 @@
+{
+  "originHash" : "6fd4c724c4abf22d706c63628e6dd5dcf51cb66cf05257c9cb02659327c6128c",
+  "pins" : [
+    {
+      "identity" : "simplenetworking",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/BakarKharabadze/SimpleNetworking",
+      "state" : {
+        "branch" : "main",
+        "revision" : "b37039d33b82a3b314749ee66b1cc1a4f60a62f0"
+      }
+    }
+  ],
+  "version" : 3
+}
